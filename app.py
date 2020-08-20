@@ -3,7 +3,7 @@ from joblib import load
 from model.get_tweets import get_related_tweets
 import pickle
 
-model = load("model/text_classification.joblib")
+# model = load("model/text_classification.joblib")
 
 # Use pickle to load in the pre-trained model.
 with open(f'model/project_virago_xgboost.pkl', 'rb') as f:
